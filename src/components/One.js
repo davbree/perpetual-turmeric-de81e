@@ -1,3 +1,4 @@
+import React from 'react';
 
 const ExampleSection = (props) => {
     const { logos, title } = props;
