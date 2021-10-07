@@ -3,6 +3,36 @@ title: Example Page
 layout: PageLayout
 sections:
   - elementId: ''
+    colors: colors-a
+    width: wide
+    height: tall
+    topGap: medium
+    bottomGap: medium
+    contentWidth: large
+    contentAlignHoriz: left
+    contentAlignVert: middle
+    textAlign: left
+    variant: variant-b
+    badge:
+      elementId: ''
+      label: lorem-ipsum
+    title: Let's do this
+    text: >-
+      The Stackbit theme is flexible and scalable to every need. It can manage
+      any layout and any screen.
+    actions:
+      - type: Button
+        label: Try it now
+        url: /about
+        style: primary
+    backgroundImage:
+      elementId: ''
+      altText: lorem-ipsum
+      caption: lorem-ipsum
+      opacity: 100
+      type: ImageBlock
+    type: CtaSection
+  - elementId: ''
     colors: colors-h
     width: wide
     height: tall
@@ -192,8 +222,9 @@ sections:
     textAlign: left
     title: Join our club
     text: >-
-      We will notify you every time a shipment is heading to your !!neighborhood,
-      and you could immediatly let us know if you want in or not.
+      We will notify you every time a shipment is heading to your
+      !!neighborhood, and you could immediatly let us know if you want in or
+      not.
     feature:
       type: ImageBlock
       url: /images/contact.png
